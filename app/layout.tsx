@@ -29,12 +29,12 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: "Aster Café",
+  title: "TLC Café",
   description: "Premium Café • Coffee • Brunch • Desserts",
   openGraph: {
-    title: "Aster Café",
+    title: "TLC Café",
     description: "Premium Café • Coffee • Brunch • Desserts",
-    siteName: "Aster Café",
+    siteName: "TLC Café",
     type: "website",
     // TODO: Add og-image when available
     // images: [
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aster Café",
+    title: "TLC Café",
     description: "Premium Café • Coffee • Brunch • Desserts",
     // TODO: Add twitter image when available
   },

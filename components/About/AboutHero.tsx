@@ -64,7 +64,7 @@ export const AboutHero = () => {
         >
           <span className="text-[#B96D40] text-sm tracking-[0.2em] font-semibold uppercase mb-6 flex items-center gap-4">
             <span className="w-8 h-[1px] bg-[#B96D40] block opacity-50" />
-            About Aster Café
+            About TLC Café
           </span>
           
           <h2 className="font-serif text-[#1F1A17] text-[2.75rem] md:text-6xl lg:text-7xl leading-[1.05] mb-8 max-w-[15ch]">
@@ -72,7 +72,7 @@ export const AboutHero = () => {
           </h2>
           
           <p className="font-sans text-[#756A63] text-lg md:text-xl leading-relaxed mb-12 max-w-[42ch]">
-            Aster Café was born not from a desire to disrupt, but from a need to preserve. We look to the materials—the unpolished stone, the aged oak, the porous ceramic—as our foundational guides. Here, the architecture does not compete with the craft; it cradles it.
+            TLC Café was born not from a desire to disrupt, but from a need to preserve. We look to the materials—the unpolished stone, the aged oak, the porous ceramic—as our foundational guides. Here, the architecture does not compete with the craft; it cradles it.
           </p>
 
           {/* Luxury CTA Button */}
@@ -108,7 +108,7 @@ export const AboutHero = () => {
             >
               <Image
                 src="/images/about/cafe-interior.png"
-                alt="Aster Cafe Interior"
+                alt="TLC Café Interior"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -135,7 +135,7 @@ export const AboutHero = () => {
             <div className="absolute bottom-[-5%] left-[15%] right-[15%] h-[10px] bg-[#1F1A17]/10 blur-xl rounded-full" />
             <Image
               src="/images/about/floating-cup.png"
-              alt="Aster Cafe Signature Cup"
+              alt="TLC Café Signature Cup"
               fill
               className="object-contain drop-shadow-[0_20px_30px_rgba(0,0,0,0.15)]"
               sizes="(max-width: 1024px) 150px, 240px"

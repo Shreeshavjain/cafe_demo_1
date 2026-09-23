@@ -10,10 +10,10 @@ export function Footer() {
           <Link href="/">
             <Image 
               src="/branding/logo.png" 
-              alt="Aster Café" 
-              width={160} 
-              height={40} 
-              className="object-contain"
+              alt="TLC Café" 
+              width={64} 
+              height={64} 
+              className="object-contain invert"
             />
           </Link>
           <p className="text-[0.95rem] md:text-sm text-latte-gray font-sans max-w-xs leading-relaxed">
@@ -38,7 +38,7 @@ export function Footer() {
           <div className="flex flex-col font-sans text-base md:text-sm text-latte-gray">
             <p className="py-2 md:py-1">123 Culinary Avenue, NY 10001</p>
             <p className="py-2 md:py-1">+1 (555) 123-4567</p>
-            <p className="py-2 md:py-1">reservations@astercafe.com</p>
+            <p className="py-2 md:py-1">reservations@tlccafe.com</p>
             <div className="pt-4 md:pt-2">
               <p className="text-white/80 font-medium py-1">Opening Hours</p>
               <p className="py-1">Mon - Thu: 8AM - 10PM</p>
@@ -58,7 +58,7 @@ export function Footer() {
       </div>
       
       <div className="max-w-7xl mx-auto mt-20 pt-8 border-t border-white/5 text-center text-xs text-latte-gray font-sans">
-        <p>&copy; {new Date().getFullYear()} Aster Café. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} TLC Café. All rights reserved.</p>
       </div>
     </footer>
   );

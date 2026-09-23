@@ -207,10 +207,10 @@ export const MobileMenu = ({ isOpen, onClose, activeSection }: MobileMenuProps) 
                 >
                   <Image
                     src="/branding/logo.png"
-                    alt="Aster Café"
-                    width={130}
-                    height={32}
-                    className="object-contain brightness-0"
+                    alt="TLC Café"
+                    width={46}
+                    height={46}
+                    className="object-contain"
                     priority
                   />
                 </Link>

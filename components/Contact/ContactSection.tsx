@@ -48,7 +48,7 @@ export const ContactSection = () => {
               allowFullScreen={false}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Aster Cafe Location"
+              title="TLC Café Location"
             />
           </motion.div>
 
@@ -66,7 +66,7 @@ export const ContactSection = () => {
             </motion.span>
             
             <motion.h2 variants={itemVariants} className="font-serif text-5xl md:text-6xl leading-[1.1] mb-6">
-              Aster Café
+              TLC Café
             </motion.h2>
 
             <motion.p variants={itemVariants} className="font-sans text-[#756A63] text-lg leading-relaxed mb-12 max-w-[42ch]">
@@ -88,7 +88,7 @@ export const ContactSection = () => {
                 <h4 className="text-xs font-semibold tracking-widest uppercase text-[#756A63] mb-3">Contact</h4>
                 <p className="font-sans text-lg leading-relaxed">
                   +1 (555) 123-4567<br/>
-                  reservations@astercafe.com
+                  reservations@tlccafe.com
                 </p>
               </motion.div>
 

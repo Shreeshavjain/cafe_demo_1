@@ -53,11 +53,13 @@ export const Navbar = () => {
             >
               <Image
                 src="/branding/logo.png"
-                alt="Aster Café"
-                width={isTransparent ? 170 : 140}
-                height={isTransparent ? 42 : 35}
+                alt="TLC Café"
+                width={isTransparent ? 56 : 46}
+                height={isTransparent ? 56 : 46}
                 className={`object-contain transition-all duration-500 ease-in-out ${
-                  isLight ? "brightness-0" : "brightness-100"
+                  isLight
+                    ? ""
+                    : "invert"
                 }`}
                 priority
               />

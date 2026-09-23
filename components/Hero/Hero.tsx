@@ -10,7 +10,7 @@ export const Hero = () => {
       <div className="absolute inset-0 z-0 bg-[#1F1B18]">
         <Image
           src="/images/hero/hero1.webp"
-          alt="Aster Café Interior"
+          alt="TLC Café Interior"
           fill
           sizes="100vw"
           className="object-cover object-center"

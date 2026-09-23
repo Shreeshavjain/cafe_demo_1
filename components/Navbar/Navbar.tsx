@@ -44,12 +44,13 @@ export const Navbar = () => {
             isTransparent ? "h-28 pt-6" : "h-20"
           }`}
         >
-          {/* ── Logo ─────────────────────────────────────────────── */}
+          {/* ── Logo & Brand Wordmark ───────────────────────────── */}
           <div className="flex-shrink-0">
             <Link
               href="#hero"
               onClick={(e) => handleScrollToSection(e, "hero")}
-              className="outline-none"
+              className="group flex items-center gap-2.5 sm:gap-3 outline-none focus-visible:ring-2 focus-visible:ring-crema-orange rounded"
+              aria-label="TLC Café"
             >
               <Image
                 src="/branding/logo.png"
@@ -63,6 +64,15 @@ export const Navbar = () => {
                 }`}
                 priority
               />
+              <span
+                className={`font-heading text-lg sm:text-xl lg:text-2xl tracking-[0.02em] select-none transition-colors duration-500 ease-in-out ${
+                  isLight
+                    ? "text-espresso group-hover:text-crema-orange"
+                    : "text-white/95 group-hover:text-crema-orange"
+                }`}
+              >
+                TLC Café
+              </span>
             </Link>
           </div>
 

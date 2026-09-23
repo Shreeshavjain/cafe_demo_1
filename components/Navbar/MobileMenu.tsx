@@ -203,16 +203,20 @@ export const MobileMenu = ({ isOpen, onClose, activeSection }: MobileMenuProps) 
                 <Link
                   href="#hero"
                   onClick={(e) => handleNavigate(e, "hero")}
-                  className="outline-none focus-visible:ring-2 focus-visible:ring-crema-orange rounded"
+                  className="flex items-center gap-2.5 outline-none focus-visible:ring-2 focus-visible:ring-crema-orange rounded"
+                  aria-label="TLC Café"
                 >
                   <Image
                     src="/branding/logo.png"
                     alt="TLC Café"
-                    width={46}
-                    height={46}
+                    width={40}
+                    height={40}
                     className="object-contain"
                     priority
                   />
+                  <span className="font-heading text-xl text-espresso tracking-[0.02em]">
+                    TLC Café
+                  </span>
                 </Link>
 
                 <button
